@@ -2,13 +2,12 @@
 Unknown MIME Type Discovery
 ===========================
 
-The `unknown-mime-type-discovery` package is a package for 
-[Bro](https://bro.org) to help network analysts improve Bro
+This package is for Bro to help network analysts improve Bro 
 by using their network to discover unknown file types. It 
-does this by creating a log named `unknown_mime_type_discovery.log`
-that will log a configurable amount of data from the beginning
-of any files not found to already have a file type detection signature
-in Bro.
+does this by creating a log named 
+``unknown_mime_type_discovery.log`` that will log a 
+configurable amount of data from the beginning of any files not 
+found to already have a file type detection signature in Bro.
 
 Installation
 ------------
