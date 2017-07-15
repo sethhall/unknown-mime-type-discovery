@@ -12,7 +12,7 @@ export {
 	## The maximum amount of content to extract 
 	## from files that don't currently have mime
 	## type identification signatures.
-	const max_content_extraction = 1024 &redef;
+	const max_content_extraction = 1000 &redef;
 
 	redef enum Log::ID += {
 		UnknownMimeTypeDiscovery::LOG
