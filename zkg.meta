@@ -1,0 +1,4 @@
+[package]
+description = A Zeek package for finding new file signatures.
+tags = files, signature
+script_dir = scripts

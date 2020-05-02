@@ -1,4 +1,0 @@
-[package]
-description = A Bro package for finding new file signatures.
-tags = files, signature
-script_dir = scripts
