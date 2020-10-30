@@ -1,9 +1,9 @@
 ##! This script is to help discover new file sniffing
-##! signatures based on finding files that Bro's current
+##! signatures based on finding files that Zeek's current
 ##! set of signatures doesn't yet detect. It will create a
 ##! new log named `unknown_mime_type_discovery.log`
 ##! which will contain the "begin of file buffer" (bof)
-##! for any files which did not match the existing Bro
+##! for any files which did not match the existing Zeek 
 ##! file signatures.
 
 module UnknownMimeTypeDiscovery;
@@ -32,7 +32,7 @@ export {
 	};
 }
 
-event bro_init()
+event zeek_init()
 	{
 	Log::create_stream(UnknownMimeTypeDiscovery::LOG, 
 	                   [$columns=Info, 

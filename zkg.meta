@@ -1,0 +1,4 @@
+[package]
+description = Help Zeek by finding unidentified file types.
+tags = files, signature
+script_dir = scripts
